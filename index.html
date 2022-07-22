@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&family=Neonderthaw&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
+    <title>PortFolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <div class="logo">
+                <h2>L<span>Q</span></h2>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#Home" class="active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#PortFolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="infoContent">
+            <h1>Lucas <span>Quinteros</span></h1>
+            <p>Hola, tengo 19 años, vivo en Argentina y soy Web Developer, tengo conocimientos en HTML5, CSS3,
+                JavaScript, Git,
+                GitHub, SASS, SEO, NodeJs, Bootstrap y Maquetado de Emails.
+            </p>
+            <p class="academia">
+                Academico:
+            </p>
+            <ul>
+                <li>Escuela Secundaria IPEMyT 24 | 2014 - 2021</li>
+                <li>Curso Introduccion a la Programacion. Instituto Celsius | 2020 - 2021</li>
+                <li>Curso Desarrollo Web. CoderHouse | 2022 - 2022</li>
+                <li>Curso JavaScript. CoderHouse | 2022 - 2022</li>
+                <li>Curso Ingles. Facultad de Lenguas | 2022 - Cursando</li>
+            </ul>
+        </div>
+        <img src="img/fotoperfil1.jpg" alt="Foto Perfil" class="fotoPerfil">
+    </main>
+
+    <section>
+        <div class="boxIconos">
+            <div class="icons">
+                <img src="img/bootstrap.png" alt="bootstrap" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/html-5.png" alt="html" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/css.png" alt="css" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/js.png" alt="javascript" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/github.png" alt="git" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/sass.png" alt="sass" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/photoshop.png" alt="photoshop" class="iconos">
+            </div>
+
+            <div class="icons">
+                <img src="img/figma.png" alt="figma" class="iconos">
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id="PortFolio">
+        <h2 class="tituloPortfolio">Portfolio</h2>
+    </div>
+
+    <section class="portfolio" >
+        
+        <div class="card">
+            <figure>
+                <img src="img/london.png" alt="london">
+            </figure>
+            <div class="contenido">
+                <h3>London Indumentaria</h3>
+                <a target="_blank" href="https://lucasquinteros12.github.io/proyectoLondon/">Ir al Sitio</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <figure>
+                <img src="img/TiendaOnline.png" alt=proximamente">
+            </figure>
+            <div class="contenido">
+                <h3>Tienda Online</h3>
+                <a target="_blank" href="https://lucasquinteros12.github.io/ProyectoFinalCoder/">Ir al Sitio</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <figure>
+                <img src="img/proximamente.png" alt="proximamente">
+            </figure>
+            <div class="contenido">
+                <h3>Proximamente...</h3>
+                <a href="#">Ir al Sitio</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contacto" id="Contacto">
+        <article class="articulo">
+            <form action="form.php" method="POST" class="formulario">
+                <h2 class="tituloContacto">Contacto</h2>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo Electronico" required>
+                <input type="text" name="telefono" placeholder="Telefono" required>
+                <textarea name="mensaje" placeholder="Escriba su consulta" required></textarea>
+                <input type="submit" value="ENVIAR" data-trn-key="form-enviar" class="boton">
+            </form>
+        </article>
+    </section>
+
+    <footer class="bg-light text-center text-white footerBoot">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                    href="https://www.facebook.com/lucas.quinteros.528/" role="button" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                    href="https://twitter.com/lukasmiqueas23" role="button" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+                    href="https://www.instagram.com/miqueas.lukas/" role="button" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+                    href="https://www.linkedin.com/in/lucas-quinteros-8300a7239/" role="button" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                    href="https://github.com/LucasQuinteros12" role="button" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright: @Miqueas.Lukas
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
