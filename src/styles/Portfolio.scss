@@ -54,4 +54,11 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .portFolio {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
